@@ -6,6 +6,7 @@ import { useRef } from 'react'
 //var Buffer = require('buffer/').Buffer
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
+import Ravi_Aswanth_Resume from '../../assets/files/Ravi_Aswanth_Resume.pdf'
 import './index.scss'
 //<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
@@ -151,7 +152,7 @@ const Contact = () => {
                     <span>Email Id: r.raviaswanth@gmail.com</span>
                     <br />
                     <span>Contact No : (+61) 0413361996</span>
-                   <a href="/file/Resume.pdf" download><input id="" type="button" className="flat-button" value="Download Resume" /></a> 
+                   <a href={Ravi_Aswanth_Resume} download ><input  type="button" className="flat-button" value="Download Resume" ></input></a> 
                 </div>
                 {/* <div className="map-wrap">
                     <div id="map"></div>
